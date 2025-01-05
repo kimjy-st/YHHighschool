@@ -14,16 +14,15 @@
 	•	matplotlib
 라이브러리는 다음 명령어로 설치할 수 있습니다:
 
-pip install opencv-python dlib numpy matplotlib
+'''pip install opencv-python dlib numpy matplotlib'''
 
 
 	2.	Dlib 모델 다운로드: 얼굴 랜드마크 검출을 위해 Dlib의 사전 학습된 모델이 필요합니다. 다음 명령어로 모델을 다운로드하고 압축을 해제한 후, 프로젝트 디렉토리의 models 폴더에 저장하세요:
 
-wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+'''wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 mkdir -p models
-mv shape_predictor_68_face_landmarks.dat models/
-
+mv shape_predictor_68_face_landmarks.dat models/'''
 
 
 실행 방법
