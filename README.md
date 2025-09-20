@@ -36,11 +36,11 @@ mv shape_predictor_68_face_landmarks.dat models/
 4.	결과 확인: 스티커가 적용된 결과 이미지는 output 폴더에 저장됩니다.
 
 ### 파일 구조
-
+```
 YHHighschool/  
 ├── E3_camera_sticker_app.py   # 메인 스크립트  
 └── README.md                  # 프로젝트 설명서  
-
+```
 
 ### 참고 사항
 - 입력 이미지의 얼굴이 명확하게 보여야 정확한 인식이 가능합니다.
