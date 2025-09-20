@@ -7,7 +7,7 @@
 - 스티커 적용: 검출된 랜드마크를 기반으로 특정 위치에 스티커(예: 왕관)를 적용합니다.
 
 ### 설치 방법
-	1.	필수 라이브러리 설치: 다음의 Python 라이브러리가 필요합니다.
+1.	필수 라이브러리 설치: 다음의 Python 라이브러리가 필요합니다.
 	- opencv-python
 	- dlib
 	- numpy
@@ -19,7 +19,7 @@ pip install opencv-python dlib numpy matplotlib
 ```
 
 
-	2.	Dlib 모델 다운로드: 얼굴 랜드마크 검출을 위해 Dlib의 사전 학습된 모델이 필요합니다. 다음 명령어로 모델을 다운로드하고 압축을 해제한 후, 프로젝트 디렉토리의 models 폴더에 저장하세요:
+2.	Dlib 모델 다운로드: 얼굴 랜드마크 검출을 위해 Dlib의 사전 학습된 모델이 필요합니다. 다음 명령어로 모델을 다운로드하고 압축을 해제한 후, 프로젝트 디렉토리의 models 폴더에 저장하세요:
 
 ```bash
 wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
